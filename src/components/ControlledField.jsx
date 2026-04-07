@@ -25,7 +25,7 @@ const ControlledField = () => {
                 <br />
                 <input type='password' name="password" id="" autoComplete='current-password'
                     defaultValue={pass} onChange={handlePassChange} placeholder='password' required />
-                <p><small style={{color: 'red'}}>{passError}</small></p>
+                <p><small style={{color: 'red   '}}>{passError}</small></p>
                 <br />
                 <input type="submit" value="Submit" />
             </form>
